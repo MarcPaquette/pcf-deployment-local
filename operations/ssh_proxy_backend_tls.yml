@@ -1,0 +1,10 @@
+variables:
+- name: ssh_proxy_backends_tls
+  type: certificate
+  options:
+    ca: service_cf_internal_ca
+    extended_key_usage:
+    - client_auth
+    common_name: ssh_proxy_backends_tls
+    alternative_names:
+    - ssh-proxy.service.cf.internal

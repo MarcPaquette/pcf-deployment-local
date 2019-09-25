@@ -1,0 +1,4 @@
+*.swp
+deployment-vars.yml
+jumpbox.key
+releases/

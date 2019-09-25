@@ -1,0 +1,12 @@
+
+create deletion scripts
+  check bosh state json for vms
+  delete vms using virtual box cli
+
+create script that takes manifest and release
+  extract manifest
+  extract releaese
+
+deploy PCF
+
+
