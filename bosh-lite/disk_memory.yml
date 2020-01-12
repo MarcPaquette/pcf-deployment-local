@@ -2,5 +2,5 @@
   type: replace
   value:
     cpus: 4
-    ephemeral_disk: 32768 
+    ephemeral_disk: 65536 
     memory: 6144
